@@ -1,7 +1,7 @@
 def bubble_sort(array)
 	sorted = 0	
 	k = 0
-	while (sorted != array.length)
+	while sorted != array.length
 		
 		sorted = 0
 		array.each_index do |i|
@@ -20,7 +20,7 @@ end
 def bubble_sort_by(array)
 	sorted = 0	
 	k = 0
-	while (sorted != array.length)
+	while sorted != array.length
 		
 		sorted = 0
 		array.each_index do |i|
